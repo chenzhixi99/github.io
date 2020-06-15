@@ -1,0 +1,190 @@
+#nav{
+
+    width:100%;
+	background:rgb(189, 181, 181);
+    top: 0;
+    margin-bottom: 0px;
+}
+#nav ul{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+}
+#nav li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:165px;  /* 两个li之间的距离*/
+  
+    overflow: hidden;
+}
+
+#nav li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    
+}
+#nav li .page
+{
+	color:#919191;
+}
+#nav li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    
+	color: #919191;
+}
+.logo
+{
+	padding-top: 20px;
+	padding-bottom:20px;
+    text-align: center;
+}
+
+body{
+padding:0;
+margin:0;
+background: #f7f7f7;
+}
+.inner
+{
+margin-left:auto;
+margin-right:auto;
+width:1145px;
+}
+.footer
+{
+	width:100%;
+	height:300px;
+	background-color:rgb(189, 181, 181);
+}
+.box-heading
+{
+	text-align:center;
+	padding-top:50px;
+}
+.box-heading h1
+{
+	color:white;
+}
+.tag
+{
+
+	margin-left:470px;
+	width:200px;
+}
+.tag a
+{
+	background-color: #1abc9c;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Montserrat;
+    padding: 5px 7px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    text-transform: uppercase;
+}
+.line
+{
+
+margin-left: 420px;
+width: 300px;
+height: 2px; 
+background: #e5e5e5; 
+margin-top:10px;
+
+}
+.introduction
+{
+margin-left:485px;
+color:white;
+}
+.tuwen 
+{
+    width:100%;
+	height:1700px;
+    top: 0;
+    margin-bottom: 0px;
+}
+.tuwen1
+{
+	height:800px;
+}
+.tuwen1-1
+{
+    height:750px;
+	width:700px;
+	float:left;
+	background-color:white;
+}
+
+.picture img
+{
+	width:700px;
+	height:400px;
+
+}
+.article
+{
+	border-left: 1px solid #f2f2f2;
+    padding: 50px 60px;
+    overflow: hidden;
+}
+.article-1
+{
+    color: #666;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    line-height: 1.5;
+}
+.tuwen1-2
+{
+	height:1630px;
+	width:350px;
+	float:right;
+	background-color:white;
+}
+article p
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px; 
+    line-height:2em;
+   color:#808080; 
+}
+.tuwen1-2-1
+{
+	width:350px;
+	height:230px;
+}
+.tuwen1-2-1 img
+{
+	width:350px;
+	height:200px;
+
+}
+.wenzi h2
+{
+	text-decoration: none;
+    color: #1abc9c;
+	font-size:12px; 
+	text-decoration: none;
+	line-height:15px;
+	text-align:center; 
+	font-family:Microsoft YaHei;
+}
+.tuwen1-3
+{
+	margin-top:30px;
+	    height:680px;
+	width:700px;
+	float:left;
+	background-color:white;
+}

@@ -1,0 +1,306 @@
+#nav{
+
+    width:100%;
+	background:rgb(189, 181, 181);
+    top: 0;
+    margin-bottom: 0px;
+}
+#nav ul{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+}
+#nav li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:165px;  /* 两个li之间的距离*/
+  
+    overflow: hidden;
+}
+
+#nav li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    
+}
+#nav li .page
+{
+	color:#919191;
+}
+#nav li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    
+	color: #919191;
+}
+.logo
+{
+	padding-top: 20px;
+	padding-bottom:20px;
+    text-align: center;
+}
+
+body{
+padding:0;
+margin:0;
+background: #f7f7f7;
+}
+.inner
+{
+margin-left:auto;
+margin-right:auto;
+width:1145px;
+
+}
+.footer
+{
+	width:100%;
+	height:300px;
+	background-color:rgb(189, 181, 181);
+}
+.box-heading
+{
+	text-align:center;
+	padding-top:50px;
+}
+.box-heading h1
+{
+	color:white;
+}
+.tag
+{
+
+	margin-left:470px;
+	width:200px;
+}
+.tag a
+{
+	background-color: #1abc9c;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Montserrat;
+    padding: 5px 7px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    text-transform: uppercase;
+}
+.line
+{
+
+margin-left: 420px;
+width: 300px;
+height: 2px; 
+background: #e5e5e5; 
+margin-top:10px;
+
+}
+.introduction
+{
+margin-left:485px;
+color:white;
+}
+.neirong
+{
+	width:100%;
+	height:1300px;
+    top: 0;
+    margin-bottom: 0px;
+}
+.neirong1
+{
+	height:400px;
+}
+.neirong1-1
+{
+	height:350px;
+	width:600px;
+	float:left;
+	background-color:white;
+}
+.neirong1-2
+{
+	height:350px;
+	width:500px;
+	float:right;
+    background-color:white;
+}
+.neirong2
+{
+	height:590px;
+	
+}
+.neirong2-1
+{
+	height:570px;
+	width:460px;
+	float:right;
+	background-color:white;
+	margin-top:0px;
+}
+.neirong2-1-2
+{
+	width:450px;
+}
+
+.neirong2-2
+{
+	height:450px;
+	width:640px;
+	float:left;
+    background-color:white;
+}
+.neirong2-2-2
+{
+	width:620px;
+}
+.neirong3
+{
+	height:550px;
+}
+.neirong3-1
+{
+	height:270px;
+	width:380px;
+	float:left;
+    background-color:white;
+}
+.neirong3-2
+{
+	height:200px;
+	width:680px;
+	float:right;
+    background-color:white;
+}
+.pic img {
+    width: 100%;
+    display: block;
+}
+.pic {
+	margin-left:15px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #dddddd;
+    overflow: hidden;
+    margin-right: 25px;
+    float: left;
+}
+.title1
+{	margin-left:15px;
+	font-size: 22px;
+    color: #666;
+    font-family: 'robotolight';
+    margin-bottom: 30px;
+}
+.jieshao
+{
+	padding-top:15px;
+}
+
+.jieshao h1
+{
+ font-family:Arial,Helvetica,sans-serif;
+ font-size:17px; 
+ line-height:1.5em;
+ margin-left:380px;
+ color:#808080; 
+
+ }
+.jieshao h2
+{
+	font-family:Microsoft JhengHei;
+	font-size:13px; 
+ line-height:1.5em;
+ margin-left:285px;
+ color:#808080; 
+ 	width:250px;
+}
+.jieshao h3
+{
+	font-family:Microsoft JhengHei;
+	font-size:14px; 
+ line-height:1.5em;
+ margin-left:295px;
+ color:#808080; 
+  	width:250px;
+ 	
+}
+.jieshao h4
+{
+	font-family:Microsoft JhengHei;
+	font-size:14px; 
+    line-height:1.5em;
+    margin-left:368px;
+   color:#808080; 
+
+}
+
+.pic-logo
+{   margin-top:0px;
+    padding-top:0px;
+	margin-right:15px;
+    width: 90px;
+    height: 90px;
+    float:right;
+}
+.pic-logo img {
+    width: 100%;
+    display: block;
+}
+
+
+.nianfen 
+{
+	    list-style-type: none;
+}
+
+.nianfen1
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px; 
+    line-height:2em;
+   color:#808080; 
+}
+.nianfen1 p
+{
+	font-weight:bold;
+}
+.nianfen1 a 
+{
+	font-style:italic;
+}
+.progress {
+    height: 10px;
+    border-radius: 0;
+    box-shadow: none;
+    background: #e8f4ef;
+    margin-bottom: 10px;
+	width:300px;
+}
+.progress-bar {
+    box-shadow: none;
+    background: #5cb48e;
+	float: left;
+    width:200px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+.progess-bars span {
+    font-size: 13px;
+    color: #5cb48e;
+}
+.progess-bars
+{
+	list-style: none;
+}
